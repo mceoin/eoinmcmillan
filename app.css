@@ -1,0 +1,139 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+.clean{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+	/*border: none;*/
+	/*border-bottom: 1px solid black;*/
+}
+
+#burgerbutton{
+	margin-top: 3px;
+	margin-bottom: 0;
+	padding: 3px;
+}
+
+#navburger{
+	width: 35px;
+}
+
+.navbar-item{
+	text-align: right;
+	font-size: 16px;
+	padding-right: 5px;
+}
+
+.navbar-brand{
+	font-size: 20px;
+}
+
+.navbar-icon{
+	height: 35px;
+}
+
+#leftside{
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background-color: beige;
+}
+
+.slick-next, .slick-prev {
+   display:none;
+}
+
+#photobox{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.photoimg{
+	width: 100%;
+}
+
+#leftside-text{
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#rightside{
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background-color: white;
+}
+
+#rightside-banner{
+	height: 100px;
+	width: 100%;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.centerbox{
+	margin: auto;
+	display: inline-block;
+}
+
+#rightside-header-about{
+	border-bottom: 6px solid #FF002A;
+}
+
+#rightside-header-product{
+	border-bottom: 6px solid #4DD922;
+}
+
+#rightside-header-operations{
+	border-bottom: 6px solid #0059FF;
+}
+
+#rightside-header-community{
+	border-bottom: 6px solid #FCFC83;
+}
+
+#rightside-header-education{
+	border-bottom: 6px solid #FFAB02;
+}
+
+.section-icon{
+	max-height: 100px;
+}
+
+#rightside-content{
+	margin-top: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#rightside-quote{
+	margin-top: 40px;
+	font-style: italic;
+}
+
+#elsewhere{
+	margin-left: -6px;
+}
+
+.elsewhere-icon{
+	display: inline-block;
+	float: left;
+	width: 40px;
+}

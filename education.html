@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eoin McMillan</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.css" >
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="app.css">
+	<script src="app.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-default hidden-lg hidden-md hidden-sm">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button id="burgerbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <img id="navburger" src="assets/png/burger.png" />
+	      </button>
+	      <a class="navbar-brand" href="index.html">Eoin McMillan</a>
+	    </div>
+
+	    <!-- Nav -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li id="navbar-about" class="navbar-item" onmouseover=changeImg(this) onmouseout=reverseChangeImg(this)><a href="index.html">About Me <img id="navbar-about-icon" class="navbar-icon" src="assets/png/face.png"/></a></li>
+	        <li id="navbar-product" class="navbar-item" onmouseover=changeImg(this) onmouseout=reverseChangeImg(this)><a href="product.html">Product <img id="navbar-product-icon" class="navbar-icon" src="assets/png/chip.png"/></a></li>
+	        <li id="navbar-operations" class="navbar-item" onmouseover=changeImg(this) onmouseout=reverseChangeImg(this) ><a href="operations.html">Operations <img id="navbar-operations-icon" class="navbar-icon" src="assets/png/bus.png"/></a></li>
+	        <li id="navbar-community" class="navbar-item" onmouseover=changeImg(this) onmouseout=reverseChangeImg(this)><a href="community.html">Community <img id="navbar-community-icon" class="navbar-icon" src="assets/png/community.png"/></a></li>
+	        <li id="navbar-education" class="navbar-item" onmouseover=changeImg(this) onmouseout=reverseChangeImg(this)><a href="education.html">Education <img id="navbar-education-icon" class="navbar-icon" src="assets/png/synapse.png"/></a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div id="leftside" class="col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+		<div id="photobox">
+			<!-- <div><img class="photoimg" src="assets/devbootcamp.jpg"></div> -->
+			<div><img class="photoimg" src="assets/anu.jpg"></div>
+		</div>
+		<div id="leftside-text">
+			<h4>Education</h4>
+			<h5>Australian National University</h5>
+			<p>I completed my B. Arts (Sociology) and B. Commerce (International Business) at the Australian National University*.</p>
+			<p>I still stay engaged as an alumnus, sitting on ANU's e-learning advisory board and through their graduate mentoring program. Last year, I delivered the graduation speech for the School of Arts.
+			</p>
+			<h6>*ANU is Australia's top-ranked university</h6>
+			<br/>
+		</div>
+	</div>
+	<div id="rightside" class="col-lg-7 col-md-7 col-sm-7 hidden-xs">
+		<div id="rightside-banner">
+			<div class="centerbox">
+				<h1 id="rightside-header-education">Eoin McMillan</h1>
+			</div>
+		</div>
+		<div id="rightside-content">
+			<img id="face" class="section-icon" src="assets/png/face.png" onmouseover="this.src='assets/png/face_hover.png'" onmouseout="this.src='assets/png/face.png'" onclick="location.href='index.html'"/>
+			<img id="product" class="section-icon" src="assets/png/chip.png" onmouseover="this.src='assets/png/chip_hover.png'" onmouseout="this.src='assets/png/chip.png'" onclick="location.href='product.html'"/>
+			<img id="operations" class="section-icon" src="assets/png/bus.png" onmouseover="this.src='assets/png/bus_hover.png'" onmouseout="this.src='assets/png/bus.png'" onclick="location.href='operations.html'"/>
+			<img id="community" class="section-icon" src="assets/png/community.png" onmouseover="this.src='assets/png/community_hover.png'" onmouseout="this.src='assets/png/community.png'" onclick="location.href='community.html'"/>
+			<img id="education" class="section-icon" src="assets/png/synapse.png" onmouseover="this.src='assets/png/synapse_hover.png'" onmouseout="this.src='assets/png/synapse.png'" onclick="location.href='education.html'"/>
+			<div id="rightside-quote">
+				<h3>"Miseris Succurrere Disco."</h3>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
