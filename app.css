@@ -56,8 +56,8 @@ h1 {
 @media screen and (max-width: 768px) {
 	body{
 		background-color: beige;
-		margin-bottom: 20px;
 	}
+	#leftside{margin-bottom: 20px;}
 }
 
 .slick-next, .slick-prev {
