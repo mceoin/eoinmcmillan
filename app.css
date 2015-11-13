@@ -6,6 +6,7 @@ html, body {
 
 h1 {
 	font-size: 60px;
+	color: black;
 }
 
 .clean{
@@ -136,4 +137,41 @@ h1 {
 	display: inline-block;
 	float: left;
 	width: 35px;
+}
+
+#index-content{
+	margin-top: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#outer{
+	display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#inner {
+	margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+}
+
+#eoin-banner{
+	height: 100%;
+	width: 100%;
+	margin-top: 80px;
+	text-align: center;
+}
+
+#center-eoin{
+	border-bottom: 6px solid black;
 }
