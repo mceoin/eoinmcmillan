@@ -53,6 +53,12 @@ h1 {
 	background-color: beige;
 }
 
+@media screen and (max-width: 768px) {
+	body{
+		background-color: beige;
+	}
+}
+
 .slick-next, .slick-prev {
    display:none;
 }
