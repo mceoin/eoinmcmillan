@@ -57,7 +57,7 @@ h1 {
 	body{
 		background-color: beige;
 	}
-	#leftside{padding-bottom: 30px;}
+	#leftside-text{padding-bottom: 30px;}
 }
 
 .slick-next, .slick-prev {
